@@ -17,7 +17,7 @@ def divide(x, y):
         return "Error! Division by zero."
 
 # Title of the app
-st.title("Sehrish Calculator")
+st.title("Simple Calculator")
 
 # Dropdown menu for selecting the operation
 operation = st.selectbox("Choose an operation:", ("Add", "Subtract", "Multiply", "Divide"))
